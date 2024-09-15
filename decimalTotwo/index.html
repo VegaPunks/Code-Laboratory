@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="top">
+            <div class="top__title">Перевод из 2 к 10</div>
+            <div class="top_container">
+                <div class="block">
+                    <div class="user">
+                        <div class="user-number col">
+                            <label>Исходное число</label>
+                            <input type="number">
+                        </div>
+                        <div class="user-input">
+                            <div class="user-binary col">
+                                <label for="binary">Двоичное число</label>
+                                <input id="binary" type="number" placeholder="2" value=2>
+                            </div>
+                            <div class="user-deci col">
+                                <label for="deci">Десятичное число</label>
+                                <input id="deci" type="number" placeholder="10" value="10">
+                            </div>
+                        </div>
+                        <button class="user-btn">Конвертировать</button>
+                    </div>
+                    <div class="result">
+                        <div class="result-title">
+                            Результат
+                        </div>
+                        <div class="num">0</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
